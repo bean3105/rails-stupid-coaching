@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+ .question {
+  background-color: white;
+  border-left: solid 3px grey;
+}
+
+.answer {
+  background-color: lightyellow;
+  border-left: solid 3px grey;
+}
+
+.new-question {
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
